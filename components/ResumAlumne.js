@@ -1,8 +1,16 @@
 import React from 'react';
-import {StyleSheet, Text, View, Dimensions, ScrollView, TouchableOpacity} from 'react-native';
+import {
+  StyleSheet,
+  Text,
+  View,
+  Dimensions,
+  ScrollView,
+  TouchableOpacity,
+} from 'react-native';
 import {Surface} from 'react-native-paper';
 
 const ResumAlumne = props => {
+
   return(
   <TouchableOpacity>
     <Text>{props.nom}</Text>
@@ -17,6 +25,7 @@ const ResumAlumne = props => {
 const styles = StyleSheet.create({
   estilBorde: {
     margin: 5,
+    marginTop: 50,
     padding: 3,
     borderWidth: 4,
   },
